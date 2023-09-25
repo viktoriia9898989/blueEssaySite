@@ -1,0 +1,78 @@
+.steps-section{
+    display: flex;
+    justify-content: center;
+
+    
+
+    
+    text-align: center;
+    .steps-section-subtitttle{
+        margin-top: 90px;
+        margin-bottom: 34px;
+    }
+    .steps-section-tittle{
+        margin-bottom: 65px;
+    }
+
+    .steps-tittle{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .steps-img{
+        margin-bottom: 40px;
+    }
+
+    .rocket-step{
+        width: 72px;
+        height: 65px;
+        
+    
+    }
+
+    .steps-descr{
+        width: 200px;
+    
+        
+font-size: 13px;
+line-height: 20px;
+color: #51555a;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+position: relative;
+left: 30px;
+
+
+    }
+
+    .steps{
+        position: relative;
+        
+    }
+
+    .arrow{
+        position: absolute;
+        left: 290px;
+        top: 15px;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .rocket-par{
+        margin-top: 5px;
+        
+        position: relative;
+        bottom:  35px;
+    }
+
+    .rocket-tittle{
+        position: relative;
+        top: -8px;
+    }
+
+    
+}

@@ -1,0 +1,289 @@
+.advantages{
+    margin-top: 90px;
+    .test-2{
+        border: 1px solid red;
+    }
+
+
+    .container-fluid{
+        position: relative;
+
+        .mes{
+            position: absolute;
+            top: 390px;
+            width: 80px;
+            
+            animation: test 4s infinite alternate-reverse;
+        }
+
+        .mes-2{
+            position: absolute;
+            right: 40px;
+            top: 100px;
+            width: 90px;
+            animation: test 4s infinite alternate-reverse;
+        }
+
+        .rupor{
+            position: absolute;
+            left: 40px;
+            top: 180px;
+            width: 70px;
+            animation: test 4s infinite alternate-reverse;
+        }
+
+        .pen-2{
+            position: absolute;
+            right: 300px;
+            top: 100px;
+            animation: test 4s infinite alternate-reverse;
+            width: 50px;
+            animation: test 4s infinite alternate-reverse;
+        }
+
+        .gal{
+            position: absolute;
+            right: 480px;
+            bottom: 50px;
+            width: 70px;
+            animation: test 4s infinite alternate-reverse;
+        }
+
+        .gal-2{
+            position: absolute;
+            right: 50px;
+            top: 300px;
+            width: 60px;
+            animation: test 4s infinite alternate-reverse;
+        }
+
+        .mes{
+            position: absolute;
+            left: 50px;
+            
+            width: 70px;
+            
+            animation: test 7s infinite alternate-reverse;
+        }
+        
+        .note{
+            position: absolute;
+            top: 600px;
+            left: 100px;
+            width: 70px;
+            animation: test 4s infinite alternate-reverse;
+        }
+        
+        .lupa{
+            position: absolute;
+            top: 100px;
+            left: 300px;
+            width: 70px;
+            animation: test 4s infinite alternate-reverse;
+        }
+        
+        .lupa-2{
+            position: absolute;
+            bottom: 150px;
+            right: 60px;
+            width: 80px;
+            animation: test 4s infinite alternate-reverse;
+        }
+        
+        .laptop{
+            position: absolute;
+            top: 400px;
+            right: 20px;
+            width: 60px;
+            animation: test 4s infinite alternate-reverse;
+        }
+        
+        
+        .pen-bott{
+            position: absolute;
+            left: 80px;
+            bottom: 20px;
+            width: 70px;
+            animation: test 4s infinite alternate-reverse;
+        }
+        
+        .gal-sm{
+            position:absolute ;
+            bottom: 20px;
+            left: 300px;
+            width: 40px;
+            animation: test 4s infinite alternate-reverse;
+
+        }
+        
+        .note-sm{
+            position: absolute;
+            bottom: 10px;
+            right: 50px;
+            width: 60px;
+            animation: test 4s infinite alternate-reverse;
+        }
+        
+        
+    }
+
+
+    h5{
+        text-align: center;
+        
+    }
+
+    h2{
+        text-align: center;
+    
+    }
+    .bg-advantages{
+        background-color:#03a9f4 ;
+    }
+
+    .advantages-content{
+        
+        .advantages-subtittle{
+            padding-top: 55px;
+            margin-bottom: 36px;
+        }
+        .advantages-tittle{
+            margin-bottom: 67px;
+        }
+    
+        h5{
+        
+          font-size: 15px;
+          color: #ffffff;
+          font-weight: normal;
+        
+         font-family: "Poppins";
+        }
+
+        h2{
+        
+            font-size: 33px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: "Poppins";
+
+        }
+        
+        .cards{
+            
+
+            
+           filter: drop-shadow(0px 4px 10px rgba(202,202,202,0.25));
+          background-color: #ffffff;
+            padding: 0px 20px;
+            
+            
+            
+            
+        text-align: center;
+            .card-tittle{
+                
+                font-size: 17px;
+                color: #1e2021;
+                font-weight: 500;
+                font-family: "Poppins";
+                margin-bottom: 21px;
+            
+            }
+
+            .card-descr{
+                
+               font-size: 14px;
+             line-height: 22px;
+              color: #51555a;
+             font-weight: 400;
+             font-family: "Poppins";
+              /*text-align: center;*/
+              padding-bottom: 52px;
+            }
+        }
+
+        .card-circle{
+            background-color: #f75e2e;
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-top: 40px;
+            margin-bottom: 37px;
+            position: relative;
+            &::before{
+            content: '';
+                height: 90px;
+                width: 52%;
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+                background-color: #f99d81;
+                display: inline-block;
+                position: relative;
+                right: 24px;
+            }
+           
+            .card-img{
+                width: 60px;
+                height: 60px;
+            
+                position: absolute;
+                top: 35px;
+                left: 15px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            
+
+            }
+        }
+
+        
+
+
+        
+        
+    }
+
+    .advantages-button{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 90px;
+        margin-top: 60px;
+        
+    
+       
+        
+        
+    }
+    a{
+        padding: 20px 95px;
+        border-radius: 3px;
+        background-color: #0187c3;
+
+        
+font-size: 14px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Poppins";
+       
+    }
+}
+
+
+
+
+@keyframes test {
+
+    0%{
+    transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(30deg);
+    }
+    
+}
+

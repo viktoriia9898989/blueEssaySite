@@ -1,0 +1,567 @@
+.baner{
+    .bg-baner{
+        background-image: url(../../../assets/img/img_city.png);
+        background-size: cover;
+        /*padding-top: 50px;*/
+        height: 600px;
+    
+        background-repeat: repeat-x;
+    
+        background-color: #c8e5f1;
+    
+    }
+    .input-section{
+        background-color: #03a9f4;
+        padding: 25px 15px;
+        margin-top:  80px;
+        
+        display: flex;
+        align-items: center;
+        .input-btn{
+            background-color: #656a70;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 202px;
+            height: 50px;
+            margin-top: 33px;
+            border-radius: 3px;
+
+        
+     background-color: #0187c3;
+        }
+    }
+    .input-section-tittle{
+
+        
+     font-size: 13px;
+     color: #ffffff;
+     font-weight: 500;
+     font-family: "Poppins";
+        
+    }
+
+    select{
+        width: 202px;
+        height: 50px;
+
+    
+height: 50px;
+border-radius: 3px;
+background-color: #f6f9f9;
+border: 1px solid #d8dadb;
+    
+        padding: 5px;
+
+        
+font-size: 9px;
+color: #656a70;
+font-weight: 500;
+font-family: "Poppins";
+        
+        
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 202px;
+        height: 50px;
+        border-radius: 3px;
+        background-color: #f6f9f9;
+        border: 1px solid #d8dadb;
+        color: #656a70;
+    
+            .minus{
+                width: 50px;
+                height: 50px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                
+
+                   font-size: 13px;
+                   color: #656a70;
+                   font-weight: 400;
+                  font-family: "Poppins";
+                  border-right: 1px solid #d8dadb;
+            }
+
+
+            .num{
+                
+                width: 94px;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                
+                height: 45px;
+                  
+               background-color: #f6f9f9;
+                   
+            }
+
+            .plus{
+            
+                width: 50px;
+                height: 50px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                
+
+                   font-size: 14px;
+                   color: #656a70;
+                   font-weight: 400;
+                  font-family: "Poppins";
+                  border-left: 1px solid #d8dadb;
+
+            }
+        }
+
+        a{
+            
+font-size: 11px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Poppins";
+
+        }
+
+
+    }
+
+    
+    
+
+
+
+
+
+
+
+
+.baner-content{
+    .baner-btn{
+        
+        a{
+            background-color: #f75e2d;
+            color: #fff;
+            padding: 17px 49px;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-weight: 600;
+            font-family: "Poppins";
+
+            
+        }
+    }
+    .baner-description{
+        margin-bottom: 30px;
+        p{
+        
+          font-size: 20px;
+         
+         color: black;
+        /*font-weight: 500;*/
+         font-family: "Poppins";
+        }
+    }
+    margin-top: 145px;
+    .baner-tittle{
+        
+        h1{
+           font-size: 47px;
+           font-weight: 600;
+          letter-spacing: -1px;
+           color: #03a9f4;
+           font-family: "Poppins";
+        }
+    }
+}
+
+
+.lines{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    .line-1{
+        height: 3px;
+        width: 50px;
+        background-color: red;
+        position: absolute;
+        top: 1px;
+    }
+
+    .line-2{
+        height: 1px;
+        width: 500px;
+        background-color: gray;
+        position: absolute;
+        top: 3px;
+
+    }
+}
+
+
+
+
+
+.col-2:not(:first-child){
+    margin-left: 40px;
+}
+
+
+
+
+    
+
+
+input{
+border: none;
+background-color: #fff;
+width: 250px;
+height: 35px;
+text-align: center;
+
+font-size: 15px;
+
+}
+
+
+
+
+
+.img-girl{
+    width: 225px;
+    height: 435px;
+    
+    position: relative;
+    top: 115px;
+    right: 70px;
+    
+    
+    
+    
+    
+
+
+    img{
+        width: 100%;
+        height: 100%;
+        top: 60px;
+        
+        
+        
+        
+        
+        
+        
+        
+
+    }
+}
+
+@keyframes slide {
+    0%{
+        background-position: 0% 0%;
+        /*background-color: black;*/
+    }
+
+    50%{
+        background-position: 100% 0%;
+        
+    }
+
+    100%{
+        background-position: 0% 0%;
+        background-color: #c8e5f1;
+    }
+    
+}
+///////////////////////////////////////////////
+
+
+.cloud.one{
+    top: 25%;
+    width: 80px;
+    height: 20px;
+    
+}
+
+.cloud.two{
+    bottom:  75%;
+    right: 19%;
+    width: 60px;
+    height: 20px;
+    
+    
+}
+
+.cloud.three{
+    top: 38%;
+    
+    width: 120px;
+    height: 40px;
+    
+}
+
+
+
+
+.cloud{
+    position: absolute;
+    right: 60px;
+    background: #fff;
+    border-radius: 1000px;
+    animation: zoomie 18s infinite  alternate;
+    transition: .18s ease-in;
+    
+}
+
+
+
+
+
+.cloud::before{
+    content: '';
+        position: absolute;
+        top: -80%;
+        left: 10%;
+        width: 50%;
+        height: 150%;
+        background: #fff;
+        border-radius: 50%;
+        
+    }
+
+    .cloud::after{
+            content: '';
+            position: absolute;
+            top: -40%;
+            right: 20%;
+            width: 30%;
+            height: 100%;
+            background: #fff;
+            border-radius: 50%;
+            
+        }
+
+
+
+        @keyframes zoomie {
+            
+            0%{
+                /*left: 0;
+                transform: translateX(-100%);*/
+                margin-right: 5px;
+                
+                
+            }
+
+            50%{
+                /*left: 80%;
+                transform: translateX(0%);*/
+                margin-right: 50%;
+                
+                
+                
+            }
+
+        
+
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @keyframes zoom {
+            
+            0%{
+                /*left: 0;
+                transform: translateX(-100%);*/
+                margin-right: 5px;
+                
+                
+            }
+
+            50%{
+                /*left: 80%;
+                transform: translateX(0%);*/
+                margin-left: 50%;
+                
+                
+                
+            }
+
+        
+
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .cloud-1.one-1{
+            top: 45%;
+            left: 5%;
+            width: 80px;
+            height: 20px;
+            
+        }
+        
+        .cloud-1.two-2{
+            bottom:  65%;
+            right: 19%;
+            width: 60px;
+            height: 20px;
+            
+            
+        }
+        
+        .cloud-1.three-3{
+            top: 28%;
+            left: 15%;
+            
+            width: 120px;
+            height: 40px;
+            
+        }
+        
+        /*.img-girl{
+            margin-top: 107px;
+        }*/
+        
+        
+        
+        .cloud-1{
+            position: absolute;
+            left: 0px;
+            background: bisque;
+            border-radius: 1000px;
+            animation: zoom 18s infinite  alternate;
+            transition: .18s ease-in;
+            
+        }
+        
+        
+        
+        
+        
+        .cloud-1::before{
+            content: '';
+                position: absolute;
+                top: -80%;
+                left: 10%;
+                width: 50%;
+                height: 150%;
+                background: bisque;
+                border-radius: 50%;
+                
+            }
+        
+            .cloud-1::after{
+                    content: '';
+                    position: absolute;
+                    top: -40%;
+                    right: 20%;
+                    width: 30%;
+                    height: 100%;
+                    background: bisque;
+                    border-radius: 50%;
+                    
+                }
+
+
+
+        
+   
+
+    

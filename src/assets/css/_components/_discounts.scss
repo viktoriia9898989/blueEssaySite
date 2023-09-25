@@ -1,0 +1,172 @@
+.discounts{
+    .bg-discounts{
+        background-color: #03a9f4;
+        height: 600px;
+        background-image: url(../../../assets/img/bg-cl.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    h2,h5,p{
+        text-align: center;
+    }
+
+    .discount-block{
+        display: flex;
+        position: relative;
+        
+
+        .borders{
+            
+                
+            position: absolute;
+            top: 60px;
+            
+            padding: 0px 30px;
+        }
+        img{
+            height: 500px;
+            width: 490px
+        }
+        span:first-child{
+            
+        font-size: 35px;
+        line-height: 40px;
+        color: #f75e2e;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: "Poppins";
+        text-align: center;
+        margin-bottom: 40px;
+        }
+
+        .descr{
+
+font-size: 14px;
+line-height: 22px;
+color: #51555a;
+font-weight: 400;
+font-family: "Poppins";
+text-align: center;
+margin-bottom: 20px;
+
+
+        }
+
+        .blue-span{
+
+font-size: 13px;
+color: #0287c3;
+font-weight: 600;
+font-family: "Poppins";
+text-align: center;
+margin-bottom: 42px;
+        }
+        
+        .white-block{
+    
+        
+            
+            
+            background-color: aliceblue;
+            .item{
+                width: 279px;
+                flex-direction: column;
+                /*height: 200px;*/
+                
+                display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            padding: 50px;
+            
+            
+            
+            }
+
+            
+
+                
+
+            
+
+        
+        }
+    }
+
+    .blue-block{
+        width: 388px;
+        background-color: #03a9f4;
+        
+        
+        
+        position: relative;
+    }
+
+    .inner-block{
+        width: 340px;
+        height: 450px;
+        border: 6px dashed #0287c3;
+        background-color: #03a9f4;
+        border-radius: 20px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .inner-block-tittle{
+        h3{
+            font-size: 25px;
+letter-spacing: 0px;
+line-height: 34px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+text-align: center;
+
+
+        }
+        
+
+
+    }
+
+    .discounts-block{
+        width: 275px;
+        height: 211px;
+        background-color: #0187c3;
+        border-radius: 20px;
+        border: 2px dashed #fff;
+        position: relative;
+        
+        .stars{
+            position: absolute;
+            top: -15px;
+            right: 0;
+            img{
+                width: 70px;
+                height: 100px;
+            }
+        }
+    
+
+    .get{
+        text-align: left;
+    }
+
+    .yellow-block{
+        font-weight: 600;
+        
+font-size: 62px;
+line-height: 57px;
+color: #e2f55d;
+font-family: "Poppins";
+
+
+    }
+
+    
+
+}
+}
+
+

@@ -1,0 +1,153 @@
+header{
+    background-color: #03a9f3; 
+    padding: 20px 0px;
+    
+}
+
+
+.header-body{
+    display: flex;
+    align-items: center;
+    a{
+        color: white;
+        font-size:  12px;
+letter-spacing: 0px;
+line-height: 11px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 600;
+font-family: "Poppins";
+    }
+   
+    
+    .header-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: anim 1s infinite alternate-reverse;
+        transition: all ease-in;
+    }}
+
+
+    @keyframes anim {
+        0%{
+            transform: rotate(45deg);
+        }
+
+        100%{
+            transform: scale(1.2);
+        }
+        
+    }
+    
+
+
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+
+
+            
+        }
+    .header-link{
+        padding: 10px 10px;
+        
+    }
+    li{
+        
+        b{
+            color: #fff;
+        font-size: 12px;
+        padding-left: 5px;
+        }
+
+    
+    }
+    
+
+
+
+.header-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+.sign-in{
+    padding: 17px 27px;
+    border-radius: 3px;
+    border-radius: 3px;
+    background-color: 1px solid #1088c7; ;
+    border:  1px solid #1088c7;;
+
+
+
+
+}
+
+.order{
+    padding: 17px 27px;
+
+
+border-radius: 3px;
+background-color: #f75e2d;
+}
+    
+}
+
+.header-burger{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    span{
+        position: absolute;
+        
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        top: 9px;
+    
+    }
+    
+    }
+
+    .header-burger::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .header-burger::after{
+        content: '';
+        position: absolute;
+        bottom:  0;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    
+   
+
+
+    
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+

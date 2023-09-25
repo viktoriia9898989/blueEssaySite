@@ -1,0 +1,80 @@
+.welcome{
+
+    .welcome-content{
+        margin-left: 50px;
+        margin-top: 100px;
+        .welcome-invintation{
+            margin-bottom: 45px;
+        }
+
+        .welcome-question{
+            margin-bottom: 42px;
+        }
+        h5{
+            font-family: "Poppins";
+            font-size: 15px;
+            color: #0287c3;
+            font-weight: 400;
+            font-family: "Poppins";
+
+        }
+
+        h2{
+            
+             font-size: 35px;
+             color: #1e2021;
+             font-family: "Poppins";
+             font-weight: 600;
+        }
+
+        p{
+            font-family: "Poppins";
+            font-size: 14px;
+            font-weight: 400;
+            color:  #656a70;
+        }
+    
+    
+
+
+    }
+    
+    .background-img{
+        position: relative;
+
+        .background-img-tittle{
+            position: absolute;
+            top: 70px;
+            font-weight: 600;
+            
+            
+            
+            
+
+         font-size: 27px;
+         
+         text-transform: uppercase;
+         color: #0286c3;
+         font-family: "Poppins";
+        }
+        margin-top: 100px;
+        padding-top: 45px;
+        width: 516px;
+        height: 417px;
+        background-color: #e5f7fd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 295px;
+            height: 100%;
+        }
+
+    }
+    
+
+    
+}
+
+
+

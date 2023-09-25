@@ -1,0 +1,49 @@
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 1200px;
+
+    
+    padding: 0;
+    margin: 0;
+    margin: 0px auto;
+    
+}
+
+
+li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+button{
+    border: none;
+}
+
+h5:not(:first-child){
+    text-align: center;
+}
+
+h2:not(:first-child){
+    text-align: center;
+}
+
+
+
+
+
