@@ -1,5 +1,70 @@
 .baner{
 
+    .cloud.one{
+        top: 25%;
+        width: 80px;
+        height: 20px;
+        
+    }
+    
+    .cloud.two{
+        bottom:  75%;
+        right: 19%;
+        width: 60px;
+        height: 20px;
+        
+        
+    }
+    
+    .cloud.three{
+        top: 38%;
+        
+        width: 120px;
+        height: 40px;
+        
+    }
+    
+    
+    
+    
+    .cloud{
+        position: absolute;
+        right: 800px;
+        background: #fff;
+        border-radius: 1000px;
+        animation: zoomie 18s infinite  alternate;
+        transition: .18s ease-in;
+        
+    }
+    
+    
+    
+    
+    
+    .cloud::before{
+        content: '';
+            position: absolute;
+            top: -80%;
+            left: 10%;
+            width: 50%;
+            height: 150%;
+            background: #fff;
+            border-radius: 50%;
+            
+        }
+    
+        .cloud::after{
+                content: '';
+                position: absolute;
+                top: -40%;
+                right: 20%;
+                width: 30%;
+                height: 100%;
+                background: #fff;
+                border-radius: 50%;
+                
+            }
+
     
     .bg-baner{
         background-image: url(../../../assets/img/img_city.png);
@@ -138,15 +203,6 @@ font-family: "Poppins";
 
     }
 
-    
-    
-
-
-
-
-
-
-
 
 .baner-content{
     .baner-btn{
@@ -160,9 +216,13 @@ font-family: "Poppins";
             color: #ffffff;
             font-weight: 600;
             font-family: "Poppins";
-
+            &:hover{
+                background-color: chocolate;
             
+            }
         }
+
+        
     }
     .baner-description{
         margin-bottom: 30px;
@@ -259,85 +319,13 @@ font-size: 15px;
         width: 100%;
         height: 100%;
         top: 60px;
-        
-        
-        
-        
-        
-        
-        
-        
-
-    }
-}
-
-@keyframes slide {
-    0%{
-        background-position: 0% 0%;
-        /*background-color: black;*/
-    }
-
-    50%{
-        background-position: 100% 0%;
-        
-    }
-
-    100%{
-        background-position: 0% 0%;
-        background-color: #c8e5f1;
-    }
     
+    }
 }
+
+
 ////////////////////////////////////////////
-        @keyframes zoomie {
-            
-            0%{
-                /*left: 0;
-                transform: translateX(-100%);*/
-                margin-right: 5px;
-                
-                
-            }
-
-            50%{
-                /*left: 80%;
-                transform: translateX(0%);*/
-                margin-right: 50%;
-                
-                
-                
-            }
-
-        
-
-            
-        }
-
-
-
-        @keyframes zoom {
-            
-            0%{
-                /*left: 0;
-                transform: translateX(-100%);*/
-                margin-right: 5px;
-                
-                
-            }
-
-            50%{
-                /*left: 80%;
-                transform: translateX(0%);*/
-                margin-left: 50%;
-                
-                
-                
-            }
-
-        
-
-            
-        }
+       
 
 
 
@@ -349,13 +337,9 @@ font-size: 15px;
 
 
 
-        
-        
-        /*.img-girl{
-            margin-top: 107px;
-        }*/
-        
-        
+
+
+
         
     
         
