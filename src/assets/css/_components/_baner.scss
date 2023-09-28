@@ -1,4 +1,6 @@
 .baner{
+
+    
     .bg-baner{
         background-image: url(../../../assets/img/img_city.png);
         background-size: cover;
@@ -286,76 +288,7 @@ font-size: 15px;
     }
     
 }
-///////////////////////////////////////////////
-
-
-.cloud.one{
-    top: 25%;
-    width: 80px;
-    height: 20px;
-    
-}
-
-.cloud.two{
-    bottom:  75%;
-    right: 19%;
-    width: 60px;
-    height: 20px;
-    
-    
-}
-
-.cloud.three{
-    top: 38%;
-    
-    width: 120px;
-    height: 40px;
-    
-}
-
-
-
-
-.cloud{
-    position: absolute;
-    right: 60px;
-    background: #fff;
-    border-radius: 1000px;
-    animation: zoomie 18s infinite  alternate;
-    transition: .18s ease-in;
-    
-}
-
-
-
-
-
-.cloud::before{
-    content: '';
-        position: absolute;
-        top: -80%;
-        left: 10%;
-        width: 50%;
-        height: 150%;
-        background: #fff;
-        border-radius: 50%;
-        
-    }
-
-    .cloud::after{
-            content: '';
-            position: absolute;
-            top: -40%;
-            right: 20%;
-            width: 30%;
-            height: 100%;
-            background: #fff;
-            border-radius: 50%;
-            
-        }
-
-
-
+////////////////////////////////////////////
         @keyframes zoomie {
             
             0%{
@@ -379,79 +312,6 @@ font-size: 15px;
 
             
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -489,31 +349,7 @@ font-size: 15px;
 
 
 
-        .cloud-1.one-1{
-            top: 45%;
-            left: 5%;
-            width: 80px;
-            height: 20px;
-            
-        }
         
-        .cloud-1.two-2{
-            bottom:  65%;
-            right: 19%;
-            width: 60px;
-            height: 20px;
-            
-            
-        }
-        
-        .cloud-1.three-3{
-            top: 28%;
-            left: 15%;
-            
-            width: 120px;
-            height: 40px;
-            
-        }
         
         /*.img-girl{
             margin-top: 107px;
@@ -521,43 +357,11 @@ font-size: 15px;
         
         
         
-        .cloud-1{
-            position: absolute;
-            left: 0px;
-            background: bisque;
-            border-radius: 1000px;
-            animation: zoom 18s infinite  alternate;
-            transition: .18s ease-in;
-            
-        }
+    
         
         
-        
-        
-        
-        .cloud-1::before{
-            content: '';
-                position: absolute;
-                top: -80%;
-                left: 10%;
-                width: 50%;
-                height: 150%;
-                background: bisque;
-                border-radius: 50%;
-                
-            }
-        
-            .cloud-1::after{
-                    content: '';
-                    position: absolute;
-                    top: -40%;
-                    right: 20%;
-                    width: 30%;
-                    height: 100%;
-                    background: bisque;
-                    border-radius: 50%;
-                    
-                }
+    
+    
 
 
 

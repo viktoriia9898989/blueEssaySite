@@ -1,6 +1,13 @@
 header{
     background-color: #03a9f3; 
     padding: 20px 0px;
+    .burg-icon{
+        a{
+            i{
+                font-size: 30px;
+            }
+        }
+    }
     
 }
 
@@ -11,12 +18,12 @@ header{
     a{
         color: white;
         font-size:  12px;
-letter-spacing: 0px;
-line-height: 11px;
-text-transform: uppercase;
-color: #ffffff;
-font-weight: 600;
-font-family: "Poppins";
+        letter-spacing: 0px;
+        line-height: 11px;
+        text-transform: uppercase;
+        color: #ffffff;
+       font-weight: 600;
+       font-family: "Poppins";
     }
    
     
@@ -96,50 +103,18 @@ background-color: #f75e2d;
     
 }
 
-.header-burger{
-    position: relative;
-    width: 20px;
-    height: 20px;
-    span{
-        position: absolute;
-        
-        width: 20px;
-        height: 2px;
-        background-color: #fff;
-        top: 9px;
-    
-    }
-    
-    }
-
-    .header-burger::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        width: 20px;
-        height: 2px;
-        background-color: #fff;
-    }
-
-    .header-burger::after{
-        content: '';
-        position: absolute;
-        bottom:  0;
-        width: 20px;
-        height: 2px;
-        background-color: #fff;
-    }
-
-    
-   
-
 
     
 
-   
+
+
+
+    /*************MEDIA******************************/
+
+  
+
+
     
-
-
 
 
 

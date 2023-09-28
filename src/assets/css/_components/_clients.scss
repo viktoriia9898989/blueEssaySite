@@ -1,8 +1,107 @@
+
 .clients{
-    .arrow{
-        background-color: aqua;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    h5,h3{
+        text-align: center;
     }
+
+    .clients-sutitttle{
+        
+               font-size: 15px;
+               color: #0287c3;
+                font-weight: 400;
+               font-family: "Poppins";
+               margin-bottom: 28px;
+    }
+
+
+    .clients-tittle{
+    
+    font-size: 33px;
+    color: #323538;
+    font-weight: 500;
+    font-family: "Poppins";
+     text-align: center;
+    }
+
+    .caruosel-inner{
+        margin: 50px;
+    }
+
+    
+    
+
+}
+
+
+.carousel-item {
+    
+
+    height: 400px;
+    .img-circle{
+        width: 60px;
+        height: 60px;
+        background-color: #9ACD32 ;
+        border-radius: 50%;
+        margin: 0px auto;
+        margin-top: 50px;
+        position: relative;
+        
+        
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+
+    img{
+        height: 47px;
+        position: absolute;
+        bottom: 0;
+    
+    
+    }
+
+    .carousel-descr{
+        
+    
+        margin: 0px auto;
+        /*padding-top: 150px;*/
+        
+        margin-top: 50px;
+    
+    
+        width: 612px;
+        
+    
+        font-size: 14px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 300;
+        font-family: "Poppins";
+
+
+    
+       
+    
+    }
+
+    .name{
+    
+       font-size: 17px;
+       color: #0287c3;
+       font-weight: 600;
+       
+    }
+
+    .date{
+      font-size: 13px;
+      color: #a3a6a9;
+      font-weight: 300;
+      
+
+    }
+    
+    
+
+
 }

@@ -1,0 +1,169 @@
+.footer{
+    
+    
+    .bg-footer{
+        background-color: #03a9f4;
+    }
+
+    .footer-nav{
+        padding-top: 37px;
+        padding-bottom: 31px;
+        border-bottom: 1px solid white;
+        margin-bottom: 53px;
+    }
+
+
+    .footer-links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 630px;
+        margin-left: 250px;
+
+
+    font-size: 12px;
+letter-spacing: 0px;
+line-height: 16px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 500;
+font-family: "Poppins";
+text-align: right;
+    
+    }
+
+    .footer-link{
+        padding-top: 20px;
+    }
+
+    .footer-logo{
+    
+        
+        img{
+            width: 278px;
+            height: 70px;
+        }
+    
+    
+    }
+
+    .footer-section-tittle{
+        
+font-size: 10px;
+line-height: 21px;
+color: #ffffff;
+font-family: "Poppins";
+
+    }
+
+    .footer-section-list{
+        width: 279px;
+        margin-bottom: 39px;
+        
+        
+    
+    }
+
+    .footer-section-link{
+        
+font-size: 13px;
+line-height: 28px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Poppins";
+
+
+    }
+    
+    
+    
+
+    .footer-section-links{
+        margin-bottom: 54px;
+    }
+
+    .section-container{
+        border-bottom: 2px solid white;
+    }
+
+    small{
+        width: 220px;
+        
+    
+      font-size: 13px;
+      line-height: 21px;
+       color: #ffffff;
+       font-family: "Poppins";
+    }
+
+    .footer-icons{
+        width: 190px;
+        display: flex;
+        justify-content: space-between;
+        
+        gap: 15px;
+        
+    }
+
+
+    .footer-icon-item{
+        width: 30px;
+        height: 30px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        &:hover{
+            background-color: #ffffff;
+        
+            border: none;
+        }
+    }
+    a{
+        i{
+            font-size: 20px;
+            &:hover{
+                color: #03a9f4;
+                background-color: transparent;
+                transition: .4s;
+    
+            }
+            
+            
+        }
+        
+    }
+
+    img{
+        float: left;
+        width: 35px;
+        height: 35px;
+        
+
+    }
+
+    .contacts-item{
+        margin-left: 57px;
+        font-size: 13px;
+       line-height: 16px;
+       color: #ffffff;
+       font-weight: 500;
+       font-family: "Poppins";
+    }
+    p{
+        margin-bottom: 5px;
+    }
+
+    .footer-bottom{
+        padding: 50px 0px;
+    }
+
+   
+}
+
+
+
+
